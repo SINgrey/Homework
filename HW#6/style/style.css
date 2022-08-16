@@ -19,6 +19,11 @@
    margin: 0 auto;
 }
 
+.header {
+   padding-top: 79px;
+   background: #EEEFF1;
+}
+
 .header__list > .item {
    display: inline-block;
 }
@@ -31,6 +36,7 @@
    letter-spacing: 0.1em;
    color: #000000;
    text-decoration: none;
+
 }
 
 .header__list .active {
