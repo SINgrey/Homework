@@ -1,0 +1,71 @@
+* {
+   box-sizing: border-box;
+}
+
+
+.item {
+   float:left;
+   position: relative;
+}
+
+.link, .item-drop a {
+   background-color:rgb(36, 34, 34);
+   display: block;
+   padding: 20px;
+   font-size: 40px;
+   color: grey;
+   text-decoration: none;  
+}
+
+
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: block;
+}
+
+.item-drop a:hover {
+   background-color: rgb(9, 126, 190);
+   color: white;
+}
+
+.list-drop {
+   display: none;
+   position: absolute;
+}
+
+.item-drop a {
+   width: 230px;
+}
+
+.item:hover .link {
+   background-color: rgb(9, 126, 190);
+   color: white;
+}
+
+.item:hover .list-drop {
+   display: block;
+}
+
+.list-second-drop {
+   display: none;
+}
+
+.item-drop:hover .list-second-drop {
+   display: block;
+}
+
+.item-drop:hover .links {
+   background-color: rgb(9, 126, 190);
+   color: white;
+}
+
+.item-drop {
+   position: relative;
+}
+
+.list-second-drop {
+   position: absolute;
+   left: 230px;
+   top: 0;
+}
