@@ -1,0 +1,654 @@
+@font-face {
+   font-family: "Graphik LC TT";
+   src: url("../fonts/GraphikLCG-Semibold.ttf");
+   font-weight: 600;
+}
+
+@font-face {
+   font-family: "Graphik LC TT";
+   src: url("../fonts/GraphikLCG-Regular.ttf");
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: url("../fonts/Roboto-Regular.ttf");
+   font-weight: 400;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+
+
+.container {
+   width: 1290px;
+   margin: 0 auto;
+}
+
+ /* HEADER START */
+
+ .heder_padding{
+   padding-top: 31px;
+   padding-bottom: 24px;
+
+ }
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+
+ }
+
+.header_flex {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.text_header {
+   margin-left: 54px;
+   text-decoration: none;
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+   color: #000000;
+}
+
+.margin_auto {
+   margin: auto;
+}
+
+
+.list_flex {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.button-header-left {
+   cursor: pointer;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   border-radius: 0px;
+   height: 45px;
+   width: 120px;
+   font-size: 16px;
+   line-height: 45px;
+   color: #000000;
+   background: #FFFFFF;
+}
+
+
+.button-header-right {
+   cursor: pointer;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   border: 1px solid transparent;
+   margin-left: 10px;
+   border-radius: 0px;
+   height: 45px;
+   width: 120px;
+   font-size: 16px;
+   line-height: 45px;
+   color: #FFFFFF;
+   background: #FF6336;
+}
+
+.hr-header{ 
+   background: #E5E5E5;
+   margin-bottom: 129px;
+
+}
+
+/* HEADER AND */
+
+/* MAIN START */
+
+.text-top-main{
+   margin-bottom: 51px;
+   width: 552px;
+   height: 210px;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 65px;
+   line-height: 70px;
+   color: #000000;
+}
+
+.text-top_main {
+   margin-bottom: 51px;
+   Width:471px;
+   Height:140px;
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 35px;
+   color: #000000;
+}
+
+.text_top_main {
+   margin-top: 25px;
+   font-family: 'Graphik LC TT';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #000000;
+}
+
+.button-main-left {
+   margin-right: 10px;
+   cursor: pointer;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   border: 1px solid transparent;
+   border-radius: 0px;
+   height: 60px;
+   width: 160px;
+   font-size: 16px;
+   line-height: 45px;
+   color: #FFFFFF;
+   background: #FF6336;
+}
+
+.button-main-right{
+   cursor: pointer;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   border: 1px solid rgba(0, 0, 0, 0.504);
+   border-radius: 0px;
+   height: 60px;
+   width: 160px;
+   font-size: 16px;
+   line-height: 45px;
+   color: #000000;
+   background: #FFFFFF;
+}
+
+.flex-main {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.padding_main {
+   padding-bottom: 172px;
+}
+
+.background {
+   background: #FF9C7D;
+}
+
+.margin-logo {
+   padding-top: 108px;
+   padding-bottom: 70px;
+}
+
+.flex-logo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 104px;
+}
+
+.text-main {
+   width: 720px;
+   margin: auto;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 50px;
+   line-height: 60px;
+   color: #000000;   
+}
+
+.text_main {
+   width: 493px;
+   margin: auto;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 50px;
+   line-height: 60px;
+   color: #000000;
+}
+
+.text_info {
+   margin: 30px 0;
+   width: 491px;
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+}
+
+.link_main {
+   text-decoration: none;
+   width: 96px;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+}
+
+.top_main_block {
+   padding-top: 90px;
+   padding-bottom: 250px;
+}
+
+.reverce {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+ }
+
+.margin {
+   margin: auto 0;
+}
+
+.center_main_block {
+   padding-bottom: 250px;
+}
+
+.bottom_main_block {
+   padding-bottom: 150px;
+}
+
+.background_top {
+   background: #FFF8E4;
+   padding-top: 120px;
+   padding-bottom: 147px;
+}
+
+.text-main-next {
+   padding-bottom: 79px;
+   width: 890px;
+   margin: auto;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 50px;
+   line-height: 60px;
+   color: #000000;
+}
+
+.link { 
+   color: #000000;
+}
+
+.flex-info {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.cards {
+   width: 330px;
+   text-align: center;
+}
+
+.cards-head {
+   font-family: 'Graphik LC TT'; 
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 40px;
+   color: #000000;
+   margin-bottom: 34px;
+}
+
+.info_presents {
+   font-family: "Graphik LC TT";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+   width: 409px;
+   margin-bottom: 25px;
+}
+
+.cards-info {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+}
+
+.link_presents {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;  
+}
+
+.text-main-presents { 
+   text-align: center;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 50px;
+   line-height: 60px;
+   color: #000000;
+   margin-bottom: 75px;  
+}
+
+.margin-presents {
+   margin-top: 75px;
+   text-align: center;
+}
+
+.cards-presents {
+   width: 440px;
+   height: 609px;
+   display: block;  
+}
+
+.img-presents {
+   height: 201px;
+   margin-bottom: 49px;
+}
+
+.flex-presents {
+   display: flex;
+   justify-content: space-between;
+}
+
+.padding_presents {
+   padding-top: 154px;
+   padding-bottom: 187px;
+}
+
+   /* BLOCK_BLUE_END */
+
+.background-center {
+   background: #C9E8F2;
+}
+
+.margin-blue {
+   padding-top: 53px;
+   padding-bottom: 105px;
+}
+
+.margin_blue {
+  margin-right: 53px;
+}
+
+.blue_img {
+   margin-right: 75px;
+}
+
+.text-blue {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 40px;
+   color: #000000;
+}
+
+.text_blue {
+   width: 921px;
+   margin-top: 23px;
+   margin-bottom: 7px;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #000000;
+}
+
+ /* BLOCK_BLUE_END */
+
+ /* BLOCK-CAKE */
+
+.background-midle {
+   background:#DABC98;
+   
+}
+
+.cake-text {
+   width: 461px;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 35px;
+   line-height: 50px;
+   color: #000000;
+}
+
+.hr-cake {
+   margin-left: 124px;
+   margin-right: 71px;
+   border: none;
+   background-color: #000000 ;
+   height: 168px;
+   width: 1px;
+}
+
+.size-cake {
+   padding: 82px 0;
+}
+
+.stars{
+   margin-top: 20px;
+   margin-bottom: 14px;
+}
+
+.cake-img {
+   margin-right: 67px;
+}
+
+.margin_auto_stars {
+   margin: auto 0;
+}
+
+.margin_cake_stars {
+   margin-right: 70px;
+}
+
+.stars-text {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   letter-spacing: 0.75px;
+   color: #000000;
+}
+   /* BLOCK-CAKE-And */
+
+   /* BLOCK_BIRD_START */
+
+.pading-bird {
+   padding: 163px 0;
+}
+
+.bird-text {
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 65px;
+   line-height: 75px;
+   text-align: center;
+   color: #000000;
+   width: 791px;
+   margin: 0 auto;
+}
+
+.decription-bird {
+   width: 539px;
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+   color: #000000;
+   width: 539px;
+   margin: 0 auto;
+   padding-bottom: 25px;
+}
+
+.flex-center {
+   display: flex;
+   justify-content: center;
+}
+
+.button-bird {
+   margin-top: 32px;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 60px;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #FF6336;
+   border: none;
+   width: 193px;
+}
+
+   /* BLOCK_BIRD_end */
+
+   /* BLOCK_ORANG_Start */
+
+.padding_orang{
+   padding-top: 119px;
+   padding-bottom: 161px;
+}
+  
+.title-orange {
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 65px;
+   line-height: 75px;
+   text-align: center;
+   color: #000000;
+   width: 784px;
+   margin: 0 auto;
+   padding-bottom: 29px;   
+}
+  
+.text-orange {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: center;
+   color: #000000;
+   width: 438px;
+   margin: 0 auto;
+   padding-bottom: 54px;
+}
+  
+.button-orange {
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 60px;
+   text-align: center;
+   color: #FFFFFF;
+   background: #000000;
+   width: 160px;
+   height: 60px;
+}
+  
+   /* BLOCK_ORANG_END */
+   
+
+      /* MAIN AND */
+
+
+   /* FOOTER_START */
+
+.padding_footer {
+   padding: 92px 0 95px;
+}  
+.size-footer {
+   width: 370px;
+}
+
+
+.logo_footer {
+   margin-top: 31px;
+   margin-bottom: 11px;
+}
+ 
+.foter-text-main {
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 50px;
+   color: #000000;
+   margin-bottom: 28px;
+}  
+
+.foter-text {
+   margin-bottom: 21px;
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 25px;
+   color: #000000;
+}
+
+.foter-info {
+   width: 290px;
+   margin-bottom: 15px;
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+}
+
+.link_footer {
+   font-family: 'Graphik LC TT';
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+   text-decoration: none;
+}
+
+.link-foote {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 15px;
+   color: #000000;
+   text-decoration: none;
+   margin-bottom: 15px;
+   display: block; 
+}
+
+.container-footer {
+   width: 187px;
+   margin-left: 34px;
+}
+
+.foter-line {
+   height: 1px;
+   background: #000000;
+}
+
+.foter_end {
+   width: 301px;
+   font-family: 'Graphik LC TT';
+   font-size: 12px;
+   line-height: 15px;
+   color: #000000;
+   margin-left: 14px;
+}
+
+.fofter-date {
+   font-family: 'Graphik LC TT';
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #000000;
+}
+
+.footer-end-padding {
+   padding-top: 47px;
+   padding-bottom: 43px;
+}
+
+   /* FOOTER_END */
+   
