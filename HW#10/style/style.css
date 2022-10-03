@@ -110,7 +110,7 @@
 
 .text-top-main{
    margin-bottom: 51px;
-   width: 552px;
+   max-width: 552px;
    height: 210px;
    font-family: 'Graphik LC TT';
    font-weight: 600;
@@ -121,7 +121,7 @@
 
 .text-top_main {
    margin-bottom: 51px;
-   Width:471px;
+   max-Width:471px;
    Height:140px;
    font-family: 'Graphik LC TT';
    font-weight: 400;
@@ -201,7 +201,7 @@
 }
 
 .text-main {
-   width: 720px;
+   max-width: 720px;
    margin: auto;
    font-family: 'Graphik LC TT';
    font-weight: 600;
@@ -211,7 +211,7 @@
 }
 
 .text_main {
-   width: 493px;
+   max-width: 493px;
    margin: auto;
    font-family: 'Graphik LC TT';
    font-weight: 600;
@@ -222,7 +222,7 @@
 
 .text_info {
    margin: 30px 0;
-   width: 491px;
+   max-width: 491px;
    font-family: 'Graphik LC TT';
    font-weight: 400;
    font-size: 20px;
@@ -230,9 +230,22 @@
    color: #000000;
 }
 
+.margin.marg-right {
+   margin-right: 25px;
+}
+
+.margin.marg-left {
+   margin-left: 25px;
+   
+}
+
+.bloc-picture1 {
+   width: 100%;
+}
+
 .link_main {
    text-decoration: none;
-   width: 96px;
+   max-width: 96px;
    font-family: 'Graphik LC TT';
    font-weight: 600;
    font-size: 20px;
@@ -271,7 +284,7 @@
 
 .text-main-next {
    padding-bottom: 79px;
-   width: 890px;
+   max-width: 890px;
    margin: auto;
    font-family: 'Graphik LC TT';
    font-weight: 600;
@@ -290,7 +303,7 @@
    flex-wrap: wrap;
 }
 .cards {
-   width: 330px;
+   max-width: 330px;
    text-align: center;
 }
 
@@ -309,8 +322,9 @@
    font-size: 20px;
    line-height: 30px;
    color: #000000;
-   width: 409px;
+   max-width: 409px;
    margin-bottom: 25px;
+   padding: 5px;
 }
 
 .cards-info {
@@ -345,13 +359,12 @@
 }
 
 .cards-presents {
-   width: 440px;
+   max-width: 440px;
    height: 609px;
    display: block;  
 }
 
 .img-presents {
-   height: 201px;
    margin-bottom: 49px;
 }
 
@@ -393,7 +406,7 @@
 }
 
 .text_blue {
-   width: 921px;
+   max-width: 921px;
    margin-top: 23px;
    margin-bottom: 7px;
    font-family: 'Roboto';
@@ -413,7 +426,7 @@
 }
 
 .cake-text {
-   width: 461px;
+   max-width: 461px;
    font-family: 'Graphik LC TT';
    font-weight: 600;
    font-size: 35px;
@@ -422,8 +435,8 @@
 }
 
 .hr-cake {
-   margin-left: 124px;
-   margin-right: 71px;
+   margin-left: 30px;
+   margin-right: 30px;
    border: none;
    background-color: #000000 ;
    height: 168px;
@@ -431,16 +444,17 @@
 }
 
 .size-cake {
-   padding: 82px 0;
+   padding: 82px 10px;
 }
 
 .stars{
+   width: 124px;
    margin-top: 20px;
    margin-bottom: 14px;
 }
 
 .cake-img {
-   margin-right: 67px;
+   margin-right: 60px;
 }
 
 .margin_auto_stars {
@@ -450,14 +464,23 @@
 .margin_cake_stars {
    margin-right: 70px;
 }
+.fot {
+   width: 100%;
+}
 
 .stars-text {
+   width: 126px;
    font-family: 'Graphik LC TT';
    font-weight: 400;
    font-size: 15px;
    line-height: 25px;
    letter-spacing: 0.75px;
    color: #000000;
+}
+
+.flex-cake {
+   display: flex;
+   justify-content: space-between;
 }
    /* BLOCK-CAKE-And */
 
@@ -474,19 +497,19 @@
    line-height: 75px;
    text-align: center;
    color: #000000;
-   width: 791px;
+   max-width: 791px;
    margin: 0 auto;
 }
 
 .decription-bird {
-   width: 539px;
+
    font-family: 'Graphik LC TT';
    font-weight: 400;
    font-size: 25px;
    line-height: 30px;
    text-align: center;
    color: #000000;
-   width: 539px;
+   max-width: 539px;
    margin: 0 auto;
    padding-bottom: 25px;
 }
@@ -525,7 +548,7 @@
    line-height: 75px;
    text-align: center;
    color: #000000;
-   width: 784px;
+   max-width: 784px;
    margin: 0 auto;
    padding-bottom: 29px;   
 }
@@ -537,12 +560,13 @@
    line-height: 30px;
    text-align: center;
    color: #000000;
-   width: 438px;
+   max-width: 438px;
    margin: 0 auto;
    padding-bottom: 54px;
 }
   
 .button-orange {
+   border: none;
    font-family: 'Graphik LC TT';
    font-weight: 600;
    font-size: 17px;
@@ -562,11 +586,16 @@
 
    /* FOOTER_START */
 
+.flex-foooter {
+   display: flex;
+   justify-content: space-between;
+}   
+
 .padding_footer {
    padding: 92px 0 95px;
 }  
 .size-footer {
-   width: 370px;
+   max-width: 370px;
 }
 
 
@@ -594,7 +623,7 @@
 }
 
 .foter-info {
-   width: 290px;
+   max-width: 290px;
    margin-bottom: 15px;
    font-family: 'Graphik LC TT';
    font-weight: 400;
@@ -634,7 +663,7 @@
 }
 
 .foter_end {
-   width: 301px;
+   max-width: 301px;
    font-family: 'Graphik LC TT';
    font-size: 12px;
    line-height: 15px;
@@ -653,6 +682,11 @@
 .footer-end-padding {
    padding-top: 47px;
    padding-bottom: 43px;
+}
+
+.flexxx {
+   display: flex;
+   justify-content: space-between;
 }
 
    /* FOOTER_END */
@@ -710,6 +744,93 @@
    .flex-logo {
       flex-wrap: wrap;
    }
+   .flex-logo-marg {
+      margin: 10px 40px;
+   }
+   .text-main {
+      text-align: center;
+   }
+   .reverce {
+      flex-direction: column;
+      align-items: center;
+   }
+   .top_main_block {
+      padding-top: 45px;
+      padding-bottom: 125px;
+   }
+   .marg-right {
+      margin-bottom: 20px;
+      
+   }
+   .center_main_block {
+      padding-bottom: 125px;
+   }
+   .bottom_main_block {
+      padding-bottom: 75px;
+   }
+   .marg-left {
+      margin-bottom: 10px;
+   }
+   .text-main-next {
+      text-align: center;
+   }
+   .cards {
+      margin: auto;
+   }
+   .flex-presents {
+      display: block;
+   }
+   .cards-presents {
+      margin: auto;
+   }
+   .margin_blue {
+      margin-right: 0;
+      text-align: center;
+   }
+   .text_blue {
+      margin: 10px auto;
+   }   
+   .blue_img {
+      margin: auto;
+      order: -1;
+      padding-bottom: 15px;
+   }
+   .hr-cake {
+      display:none ;
+   }
+   .flex-cake{
+      display: flex;
+      justify-content: space-between;
+   }
+   .bird-imagess {
+      width: 100%;
+   }
+   .bird-text {
+      margin-bottom: 10px;
+   }
+   
+   .button-bird,.button-orange {
+      width: 250px;
+      height: 80px;
+   }
+   .size-footer {
+
+      margin: auto;
+      text-align: center;
+   }
+   .foter-info {
+      margin: auto;
+   }
+   .logo_footers {
+      width: 90%;
+   }
+   .foter-text {
+      margin-top: 20px;
+   }
+   .flex-foooter {
+      align-items: center;
+      flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 765px) {
@@ -741,6 +862,67 @@
    .text-top-main{
       margin-bottom: 20px;
    }
+   .flex-logo-marg {
+      margin: 10px 20px;
+   }
+   .text-main {
+      font-size: 40px;
+      line-height: 50px;
+      width: auto;
+   }
+   .text_main {
+      text-align: center;
+      font-size: 40px;
+      line-height: 60px;
+   }
+   .text_info {
+      text-align: center;
+      font-size: 15px;
+      line-height: 25px;
+   }
+   .link_main {
+      font-size: 16px;
+      line-height: 26px;
+   }
+   .top_main_block {
+      padding-top: 20px;
+      padding-bottom: 60px;
+   }
+   .marg-right {
+      margin-bottom: 20px;
+   }
+   .center_main_block {
+      padding-bottom: 60px;
+   }
+   .bottom_main_block {
+      padding-bottom: 30px;
+  }
+  .text-main-presents {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .cake-img {
+   margin-right: 30px;
+   margin-bottom: 20px;
+  }
+  .margin_auto {
+   margin-bottom: 25px;
+   }
+  .cake-text {
+   text-align: center;
+  }
+  .flex-cake {
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .bird-text,.title-orange {
+   font-size: 50px;
+   line-height: 60px;
+  }
+  .pading-bird {
+   padding: 100px 0;
+   }
 }
 
 
@@ -751,8 +933,8 @@
       width: auto;
    }
    .text_header  {
-      font-size: 25px;
-      margin-bottom: 15px;
+      font-size: 20px;
+      margin-bottom: 10px;
       display: block;
    }
    .button_containerr {
@@ -767,12 +949,12 @@
       margin-left: 0;
    }
    .text-top-main {
-      font-size: 30px;
-      line-height: 40px;
+      font-size: 25px;
+      line-height: 30px;
    }
    .text-top_main {
       width: auto;
-      font-size: 18px;
+      font-size: 15px;
    }
    .calss_buttom_top_main {
       width: 100%; 
@@ -785,5 +967,106 @@
    .button-main-right {
       width: 100%;
    } 
+   .flex-logo-marg {
+      margin: 10px 10px;
+   }
+   .text-main {
+      font-size: 25px;
+      line-height: 35px;
+      width: auto;
+   }
+
+   .text_main {
+      text-align: center;
+      font-size: 30px;
+      line-height: 50px;
+   }
+   .text_info {
+      width: 100%;
+      text-align: center;
+      font-size: 10px;
+      line-height: 20px;
+   }
+   .link_main {
+      width: 100%;
+      font-size: 10px;
+      line-height: 18px;
+   }
+   .margin.marg-left {
+      margin-left: 0;
+   }
+   .margin.marg-right {
+      margin-right: 0;
+   }
+   .text-main-next {
+      font-size: 30px;
+      line-height: 35px;
+   }
+   .cards {
+      margin-top: 10px;
+   }
+   .info_presents {
+      margin: 0;
+   }
+   .blue_img {
+      width: 100%;
+      max-width: 320px;
+   }
+   .flex-cake {
+      display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+   .flex-cake  {
+      align-items: center;
+   }
+   .cake-img {
+      margin-right: 0;
+   }
+   .margin_cake_stars {
+         margin-right: 30px;
+         
+   }
+   .bird-text,.title-orange {
+      font-size: 30px;
+      line-height: 35px;
+   }
+   .button-bird,.button-orange {
+      width: 80%;
+      height: 70px;
+   }
+   .decription-bird {
+      font-size: 20px;
+    line-height: 25px;
+   }
+   .flex-foooter {
+      flex-direction: column;
+   }
+   .flexxx {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+   }
+   .fofter-date {
+      margin: 10px;
+   }
+   .foter_end {
+      margin-top: 10px;
+   }
+   .size-cake {
+      padding: 82px 0;
+   }
+}   
+
+@media (max-width: 355px) {
+   .margin_cake_stars {
+      margin-right: 30px;
+      margin-bottom: 15px;
+   }
+   .flex-logo {
+      flex-wrap: wrap;
+      flex-direction: column;
    
-}       
+}
+}
+
