@@ -1,0 +1,62 @@
+.consult-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.service-btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  padding: 20px 30px;
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+.service-line {
+  background: rgba(255, 255, 255, 0.5);
+  height: 4px;
+  width: 100%;
+}
+.service__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+.service__main-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+}
+.service-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.service-info__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  
+}

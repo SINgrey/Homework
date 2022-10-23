@@ -1,0 +1,54 @@
+.splash {
+  position: relative;
+  height: 686px;
+  width: 100%;
+  background-color: #323264;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include onTabletHD {
+    height: 655px;
+  }
+
+  &__logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+
+  &__title {
+    margin: 0;
+    position: absolute;
+    color: #fff;
+    bottom: 377px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  &__arrow-down {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    height: 42px;
+    width: 42px;
+    border-radius: 60%;
+    border: 1px solid #fff;
+  }
+
+  &__arrow-down--img {
+    height: 9px;
+    width: 18px;
+    object-fit: contain;
+  }
+}

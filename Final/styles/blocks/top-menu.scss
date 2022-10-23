@@ -1,0 +1,56 @@
+.top-menu {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 50px 60px 0;
+
+  &__divider {
+    margin: 0 6px;
+    height: 6px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+
+  &__left-container {
+    display: flex;
+    flex-direction: column;
+
+    &--top {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__lang {
+    display: flex;
+
+    &--link {
+      padding: 5px 7px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Montserrat';
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+  &__phone {
+    font-weight: 700;
+  }
+
+  &__fb-logo {
+    height: 24px;
+    width: 24px;
+    background-image: url('./img/fb-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
